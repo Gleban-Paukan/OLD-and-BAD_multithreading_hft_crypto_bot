@@ -15,17 +15,12 @@ import os
 import re
 from requests import ConnectionError, ReadTimeout
 
-bot = telebot.TeleBot('6272926097:AAH22Jxbff7QxyeyE4nFjii4x0FHPu6KzCA')
+bot = telebot.TeleBot('')
 bot.parse_mode = 'html'
 stable_dict = {}
 obnulator = {}
 spread_dict = {}
-subscribe = [1125076741]
-             # 598116665,
-             # 497365721,
-             # 5745834781,
-             # 821107545,
-             # 570603408
+
 
 
 @bot.message_handler(commands=['start'])
